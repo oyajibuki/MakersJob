@@ -1,0 +1,730 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="color-scheme" content="light dark">
+<link rel="icon" href="data:,">
+<title>メーカーズジョブ マンガLP｜製造業の技術職のための無料キャリア面談</title>
+<meta name="description" content="生産技術・設計・品質保証など、製造業の技術職経験者のための無料キャリア面談。マンガで分かる悩みと、申込から面談までの流れ。">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700;900&family=Zen+Kaku+Gothic+New:wght@700;900&display=swap" rel="stylesheet">
+<style>
+:root{
+--paper:#FFF9F0; --paper2:#FFFFFF; --ink:#14181F; --ink2:#3A4150; --muted:#6B7280;
+--navy:#0F2342; --orange:#FF5A00; --orange-d:#E64A00; --yellow:#FFC531; --line:#14181F;
+--card:#FFFFFF; --soft:#FFF1E3; --soft2:#EEF3FF; --ok:#0E7A4A; --ng:#B42318;
+--shadow:6px 6px 0 #14181F;
+}
+@media (prefers-color-scheme: dark){
+:root{ --paper:#12151C; --paper2:#1A1F2A; --ink:#F2F3F5; --ink2:#D6DAE2; --muted:#9AA3B2; --card:#1A1F2A; --soft:#2A2118; --soft2:#1B2742; --line:#E8EAF0; --shadow:6px 6px 0 #000;}
+}
+*{box-sizing:border-box} html{scroll-behavior:smooth}
+body{margin:0;font-family:"Noto Sans JP",system-ui,sans-serif;background:var(--paper);color:var(--ink);line-height:1.75;-webkit-font-smoothing:antialiased;padding-bottom:84px}
+a{color:inherit}
+.wrap{max-width:760px;margin:0 auto;padding:0 18px}
+h1,h2,h3{font-family:"Zen Kaku Gothic New","Noto Sans JP",sans-serif;line-height:1.35;margin:0}
+img{max-width:100%;display:block}
+.pr-bar{background:#14181F;color:#fff;font-size:12.5px;font-weight:700;padding:9px 16px;text-align:center;letter-spacing:.02em}
+.pr-bar b{color:var(--yellow)}
+.hero{padding:28px 0 8px;position:relative;background-image:radial-gradient(rgba(20,24,31,.13) 1.2px, transparent 1.3px);background-size:16px 16px}
+.eyebrow{display:inline-block;background:var(--navy);color:#fff;font-weight:900;font-size:13px;padding:6px 12px;border:2.5px solid var(--line);box-shadow:4px 4px 0 var(--line)}
+.hero h1{font-size:clamp(30px,8.4vw,46px);font-weight:900;margin:16px 0 12px;letter-spacing:.01em}
+.hero h1.hl{background:linear-gradient(transparent 62%, var(--yellow) 62%);padding:0 2px}
+.hero h1.or{color:var(--orange-d)}
+.lead{font-size:16.5px;color:var(--ink2);font-weight:500;margin:0 0 18px}
+.hero-img{border:3px solid var(--line);box-shadow:var(--shadow);border-radius:6px;overflow:hidden;background:#fff}
+.hero-img img{width:100%;height:auto;aspect-ratio:4/4.6;object-fit:cover;object-position:top center}
+@media(min-width:640px){.hero-img img{aspect-ratio:16/10}}
+.chips{display:flex;flex-wrap:wrap;gap:8px;margin:18px 0}
+.chip{background:var(--card);border:2px solid var(--line);border-radius:999px;padding:5px 12px;font-size:13px;font-weight:700}
+.cta{display:block;text-align:center;background:var(--orange);color:#fff;text-decoration:none;font-weight:900;font-size:18px;padding:17px 18px;border:3px solid var(--line);border-radius:8px;box-shadow:var(--shadow);transition:transform.15s}
+.cta:active{transform:translate(3px,3px);box-shadow:3px 3px 0 var(--line)}
+.cta small{display:block;font-size:12.5px;font-weight:700;opacity:.95;margin-top:2px}
+.cta-note{text-align:center;font-size:12.5px;color:var(--muted);margin:10px 0 0}
+section{padding:42px 0 6px}
+.sec-head{display:flex;align-items:center;gap:12px;margin-bottom:18px}
+.sec-num{background:var(--orange);color:#fff;font-family:"Zen Kaku Gothic New";font-weight:900;font-size:20px;width:42px;height:42px;display:grid;place-items:center;border:2.5px solid var(--line);border-radius:6px;box-shadow:3px 3px 0 var(--line);flex:none}
+.sec-head h2{font-size:clamp(22px,6vw,28px);font-weight:900}
+.sec-sub{color:var(--ink2);margin:0 0 20px;font-size:15px}
+.panel{border:3px solid var(--line);border-radius:8px;overflow:hidden;background:var(--card);box-shadow:var(--shadow);margin-bottom:26px}
+.panel img{width:100%;height:auto}
+.panel-body{padding:18px}
+.ep{display:inline-block;background:var(--ink);color:var(--paper);font-size:12px;font-weight:900;padding:3px 10px;border-radius:4px;margin-bottom:10px}
+@media (prefers-color-scheme: dark){.ep{background:#F2F3F5;color:#14181F}}
+.panel h3{font-size:19px;font-weight:900;margin-bottom:10px}
+.bubble{position:relative;background:var(--soft);border:2px solid var(--line);border-radius:12px;padding:12px 14px;font-weight:700;font-size:15.5px;margin:12px 0}
+.bubble:after{content:"";position:absolute;left:28px;bottom:-11px;width:18px;height:18px;background:var(--soft);border-right:2px solid var(--line);border-bottom:2px solid var(--line);transform:rotate(45deg)}
+.panel p{margin:8px 0;color:var(--ink2);font-size:15px}
+.text-panel{padding:20px 18px}
+.check-grid{display:grid;gap:16px}
+@media(min-width:640px){.check-grid{grid-template-columns:1fr 1fr}}
+.check-box{border:3px solid var(--line);border-radius:8px;padding:18px;background:var(--card);box-shadow:var(--shadow)}
+.check-box h3{font-size:17px;margin-bottom:12px}
+.check-box ul{list-style:none;margin:0;padding:0}
+.check-box li{padding:9px 0 9px 30px;position:relative;font-size:14.5px;border-bottom:1px dashed rgba(128,128,128,.35);font-weight:500}
+.check-box li:last-child{border-bottom:none}
+.ok li:before{content:"✓";position:absolute;left:0;top:8px;width:21px;height:21px;background:var(--ok);color:#fff;border-radius:50%;display:grid;place-items:center;font-size:12px;font-weight:900}
+.ng li:before{content:"×";position:absolute;left:0;top:8px;width:21px;height:21px;background:var(--ng);color:#fff;border-radius:50%;display:grid;place-items:center;font-size:12px;font-weight:900}
+.note{font-size:13px;color:var(--muted);margin-top:14px}
+.ai-box{border:3px solid var(--line);border-radius:8px;background:var(--soft2);padding:20px 18px;box-shadow:var(--shadow)}
+.ai-box p{font-size:15.5px;margin:0 0 12px}
+.ai-box p:last-child{margin-bottom:0}
+.ai-box b{background:linear-gradient(transparent 65%, var(--yellow) 65%)}
+.why-grid{display:grid;gap:14px}
+@media(min-width:640px){.why-grid{grid-template-columns:1fr 1fr 1fr}}
+.why{border:2.5px solid var(--line);border-radius:8px;background:var(--card);padding:16px;box-shadow:4px 4px 0 var(--line)}
+.why.n{font-family:"Zen Kaku Gothic New";font-weight:900;color:var(--orange-d);font-size:13px}
+.why h3{font-size:16.5px;margin:6px 0 8px}
+.why p{font-size:14px;color:var(--ink2);margin:0}
+.stat{margin-top:18px;border:2.5px dashed var(--line);border-radius:8px;padding:16px;background:var(--card)}
+.stat.big{font-family:"Zen Kaku Gothic New";font-weight:900;font-size:26px}
+.stat.big span{color:var(--orange-d)}
+.stat p{font-size:13.5px;color:var(--ink2);margin:6px 0 0}
+.steps{display:grid;gap:0}
+.step{display:flex;gap:14px;position:relative;padding-bottom:24px}
+.step:before{content:"";position:absolute;left:20px;top:46px;bottom:0;width:3px;background:var(--line);opacity:.25}
+.step:last-child:before{display:none}
+.step-n{width:42px;height:42px;flex:none;border-radius:50%;background:var(--navy);color:#fff;font-weight:900;display:grid;place-items:center;border:2.5px solid var(--line);z-index:1}
+.step h3{font-size:16.5px;margin:6px 0 4px}
+.step p{font-size:14.5px;color:var(--ink2);margin:0}
+.step.warn{display:inline-block;margin-top:6px;background:#FFF3CD;color:#664D03;border:1.5px solid #664D03;border-radius:6px;padding:4px 10px;font-size:13px;font-weight:700}
+@media (prefers-color-scheme: dark){.step.warn{background:#3A2F10;color:#FFD97A;border-color:#FFD97A}}
+.game{border:3px solid var(--line);border-radius:10px;background:var(--navy);color:#fff;padding:26px 20px;box-shadow:var(--shadow);text-align:center}
+.game.g-label{font-size:12.5px;font-weight:900;letter-spacing:.12em;color:var(--yellow)}
+.game h2{font-size:clamp(21px,6vw,27px);margin:12px 0}
+.game p{font-size:14.5px;color:#D9E2F2;margin:0 0 18px}
+.game a{display:inline-block;background:#fff;color:#0F2342;font-weight:900;text-decoration:none;padding:13px 22px;border-radius:8px;border:3px solid #000;box-shadow:4px 4px 0 #000;font-size:15.5px}
+.faq{border:2.5px solid var(--line);border-radius:8px;background:var(--card);margin-bottom:12px;overflow:hidden}
+.faq summary{cursor:pointer;font-weight:900;font-size:15.5px;padding:15px 16px;list-style:none}
+.faq summary::-webkit-details-marker{display:none}
+.faq summary:before{content:"Q. ";color:var(--orange-d)}
+.faq.a{padding:0 16px 16px;font-size:14.5px;color:var(--ink2)}
+.faq.a:before{content:"A. ";font-weight:900;color:var(--navy)}
+@media (prefers-color-scheme: dark){.faq.a:before{color:var(--yellow)}}
+.final{padding:36px 0 10px;text-align:center}
+.final h2{font-size:clamp(23px,6.5vw,30px);margin-bottom:12px}
+.final p{color:var(--ink2);font-size:15px;max-width:560px;margin:0 auto 20px}
+footer{border-top:2px solid var(--line);margin-top:44px;padding:22px 0 30px;font-size:12.5px;color:var(--muted)}
+footer a{color:var(--ink2)}
+.sticky{position:fixed;left:0;right:0;bottom:0;z-index:50;background:var(--paper2);border-top:3px solid var(--line);padding:10px 14px calc(10px + env(safe-area-inset-bottom));display:flex;gap:10px;align-items:center;max-width:100%}
+.sticky.t{font-size:12px;font-weight:900;line-height:1.4;flex:1;min-width:0}
+.sticky.t span{display:block;font-weight:500;color:var(--muted);font-size:11.5px}
+.sticky a{flex:none;background:var(--orange);color:#fff;text-decoration:none;font-weight:900;font-size:15px;padding:13px 18px;border:2.5px solid var(--line);border-radius:8px;box-shadow:3px 3px 0 var(--line)}
+.hl{background:linear-gradient(transparent 62%, var(--yellow) 62%);padding:0 2px}
+.sticky>div{font-size:12px;font-weight:900;line-height:1.4;flex:1;min-width:0}
+.sticky span{display:block;font-weight:500;color:var(--muted);font-size:11.5px}
+.step span.warn{display:inline-block;margin-top:6px;background:#FFF3CD;color:#664D03;border:1.5px solid #664D03;border-radius:6px;padding:4px 10px;font-size:13px;font-weight:700}
+.manga-btn{display:block;text-align:center;background:var(--navy);color:#fff;text-decoration:none;font-weight:900;font-size:17px;padding:15px 18px;border:3px solid var(--line);border-radius:8px;box-shadow:var(--shadow);margin:18px 0 10px}
+.manga-btn small{display:block;font-size:12px;font-weight:700;opacity:.9;margin-top:2px}
+.game-mini{display:block;text-align:center;font-size:14px;font-weight:700;color:var(--navy);text-decoration:underline;text-underline-offset:3px;padding:10px 4px 2px}
+.recap{border:2.5px dashed var(--line);border-radius:8px;padding:14px 16px;background:var(--soft);font-size:14.5px;margin-bottom:22px}
+.quiz{border:3px solid var(--line);border-radius:8px;background:var(--card);box-shadow:var(--shadow);padding:20px 18px;margin-bottom:22px}
+.quiz-q{padding:14px 0;border-bottom:1px dashed rgba(128,128,128,.4)}
+.quiz-q p{font-weight:900;font-size:15.5px;margin:0 0 10px}
+.quiz-q p span{color:var(--orange-d);margin-right:6px}
+.quiz-opts{display:flex;gap:10px}
+.quiz-opts button{flex:1;font:inherit;font-weight:900;font-size:15px;padding:12px 8px;border:2.5px solid var(--line);border-radius:8px;background:var(--paper);color:var(--ink);cursor:pointer}
+button.sel-yes{background:var(--ok);color:#fff}
+button.sel-no{background:var(--ink);color:var(--paper)}
+.quiz-result{margin-top:18px;border-radius:8px;padding:16px;font-size:15px;display:none}
+.quiz-result.show{display:block}
+.quiz-result.okbox{background:#E6F4EC;border:2.5px solid var(--ok)}
+.quiz-result.ngbox{background:#FDECEA;border:2.5px solid var(--ng)}
+.quiz-result h3{font-size:17px;margin-bottom:8px}
+.quiz-result p{font-size:14.5px;color:var(--ink2);margin:0 0 12px}
+.prep{border:3px solid var(--line);border-radius:8px;background:var(--soft);box-shadow:var(--shadow);padding:20px 18px;margin:6px 0 22px}
+.prep h3{font-size:18px;margin-bottom:6px}
+.prep p{font-size:14.5px;color:var(--ink2);margin:0 0 12px}
+.prep ul{list-style:none;margin:0;padding:0}
+.prep li{position:relative;padding:10px 0 10px 34px;font-weight:700;font-size:15px;border-bottom:1px dashed rgba(128,128,128,.4)}
+.prep li:last-child{border-bottom:none}
+.prep li:before{content:"✎";position:absolute;left:0;top:9px;width:24px;height:24px;background:var(--navy);color:#fff;border-radius:6px;display:grid;place-items:center;font-size:13px}
+.prep li span{display:block;font-weight:500;font-size:13.5px;color:var(--ink2)}
+@media (prefers-color-scheme: dark){.game-mini{color:var(--yellow)}.quiz-result.okbox{background:#123527}.quiz-result.ngbox{background:#3A1714}}
+@media(max-width:420px){.sticky.t{display:none}}
+
+/* ===== Detailed manga ===== */
+.cast{display:grid;gap:10px;margin:0 0 26px}
+@media(min-width:640px){.cast{grid-template-columns:1fr 1fr}}
+.cast div{border:2px solid var(--line);border-radius:8px;background:var(--card);padding:12px 14px;font-size:13.5px}
+.cast b{display:block;font-size:14.5px}
+.cast span{color:var(--muted);font-size:12px;font-weight:900;letter-spacing:.06em}
+.ep-block{margin:0 0 34px;border-top:4px solid var(--line);padding-top:20px}
+.ep-head{display:flex;gap:12px;align-items:flex-start;margin-bottom:8px}
+.ep-no{background:var(--navy);color:#fff;font-weight:900;font-size:13px;padding:7px 10px;border:2.5px solid var(--line);border-radius:6px;box-shadow:3px 3px 0 var(--line);flex:none;text-align:center;line-height:1.3}
+.ep-head h3{font-size:clamp(21px,5.6vw,27px);font-weight:900}
+.ep-head p{margin:4px 0 0;color:var(--ink2);font-size:14px}
+.ep-lead{font-size:14.5px;color:var(--ink2);background:var(--soft);border:2px dashed var(--line);border-radius:8px;padding:12px 14px;margin:12px 0 16px}
+.comic-grid{display:grid;gap:16px}
+@media(min-width:640px){.comic-grid{grid-template-columns:1fr 1fr}}
+.coma{border:3px solid var(--line);border-radius:8px;background:var(--card);overflow:hidden;box-shadow:4px 4px 0 var(--line);display:flex;flex-direction:column}
+.coma-top{display:flex;justify-content:space-between;align-items:center;background:var(--ink);color:var(--paper);padding:7px 10px;font-size:12px;font-weight:900}
+@media(prefers-color-scheme:dark){.coma-top{background:#F2F3F5;color:#14181F}}
+.coma-top i{font-style:normal;opacity:.85;font-weight:700}
+.visual{padding:12px 13px 10px;background:linear-gradient(180deg,var(--soft2),var(--card));border-bottom:2px solid var(--line);font-size:13.5px;line-height:1.6}
+.visual b{display:block;font-size:11.5px;letter-spacing:.08em;color:var(--orange-d);margin-bottom:4px}
+.coma-body{padding:12px 13px 14px;display:grid;gap:9px}
+.narr{background:#14181F;color:#fff;font-size:13.5px;line-height:1.65;padding:9px 11px;border-radius:4px;font-weight:500}
+@media(prefers-color-scheme:dark){.narr{background:#EDEFF3;color:#14181F}}
+.mono{border:2px solid var(--line);background:var(--paper);padding:9px 11px;font-size:13.5px;line-height:1.65;border-radius:4px}
+.mono b{font-size:11px;letter-spacing:.06em;color:var(--navy);display:block}
+@media(prefers-color-scheme:dark){.mono b{color:var(--yellow)}}
+.say{position:relative;background:#fff;color:#14181F;border:2px solid #14181F;border-radius:12px;padding:9px 11px;font-size:14px;line-height:1.6;font-weight:700}
+.say small{display:block;font-size:11px;font-weight:900;color:#FF5A00;letter-spacing:.04em}
+.say.alt{background:#FFF7E8}
+.phone-say{background:#EEF3FF}
+.sfx{font-family:"Zen Kaku Gothic New";font-weight:900;font-size:13px;color:var(--orange-d)}
+.ep-end{margin-top:16px;border:2.5px solid var(--line);border-radius:8px;padding:14px 16px;background:var(--navy);color:#fff;font-size:14.5px}
+.ep-end b{color:var(--yellow)}
+.next-ep{text-align:center;font-weight:900;font-size:13px;color:var(--muted);margin:10px 0 0}
+.mpanel{border:3px solid var(--line);border-radius:8px;background:var(--card);overflow:hidden;box-shadow:4px 4px 0 var(--line);display:flex;flex-direction:column}
+.mpanel svg{display:block;width:100%;height:auto}
+.artwrap{background:#111;line-height:0}
+.artwrap img{width:100%;height:auto;display:block}
+.coma-body .narr{margin:0;font-size:14px;line-height:1.7;padding:10px 12px}
+.coma-body .say{margin:0}
+/* ===== Shorts ===== */
+.shorts-grid{display:grid;gap:18px}
+.short-card{border:3px solid var(--line);border-radius:10px;background:var(--card);box-shadow:var(--shadow);overflow:hidden}
+.short-head{background:var(--navy);color:#fff;padding:16px 18px}
+.short-head span{font-size:11.5px;font-weight:900;letter-spacing:.1em;color:var(--yellow)}
+.short-head h3{font-size:19px;margin:5px 0 6px;color:#fff}
+.short-head p{margin:0;font-size:13.5px;color:#D9E2F2;line-height:1.6}
+.hook{margin:14px 18px 0;background:#FFF3CD;color:#3A2E00;border:2px solid #14181F;border-radius:8px;padding:11px 13px;font-weight:900;font-size:15px;line-height:1.55}
+@media(prefers-color-scheme:dark){.hook{background:#3A2F10;color:#FFD97A}}
+.board{margin:14px 18px 0;border:2px solid var(--line);border-radius:8px;overflow:hidden}
+.board-row{display:grid;grid-template-columns:64px 1fr;border-bottom:1px dashed rgba(128,128,128,.45);padding:10px 12px;gap:10px;font-size:13.5px;line-height:1.6}
+.board-row:last-child{border-bottom:none}
+.board-row b{font-family:"Zen Kaku Gothic New";font-size:12px;color:var(--orange-d)}
+.board-row strong{display:block;font-size:13.5px}
+.board-row span{color:var(--ink2)}
+.short-foot{padding:14px 18px 18px;font-size:13.5px;color:var(--ink2)}
+.short-foot b{color:var(--ink)}
+.caption-box{background:var(--soft);border-radius:8px;padding:11px 13px;margin-top:10px;font-size:13px;white-space:pre-line}
+.shorts-note{font-size:13px;color:var(--muted);margin-top:14px}
+.short-video{padding:16px 18px 0}
+.short-video video{display:block;width:min(300px,100%);aspect-ratio:9/16;margin:0 auto;background:#000;border:3px solid var(--line);border-radius:10px;box-shadow:4px 4px 0 var(--line)}
+.short-video-note{text-align:center;font-size:12.5px;color:var(--muted);margin:9px 0 0}
+.script-label{margin:16px 18px 0;font-weight:900;font-size:13px;letter-spacing:.06em;color:var(--orange-d)}
+
+
+/* ===== Cinematic manga — text BELOW the art, never over faces ===== */
+.comic-grid{display:block}
+.cpanel{border:3px solid #101216;border-radius:6px;overflow:hidden;background:#FFFFFF;margin:0 0 14px;box-shadow:4px 4px 0 rgba(16,18,22,.9);line-height:1.5}
+.cpanel-head{background:#111318;color:#FFFFFF;font-size:11px;font-weight:900;padding:5px 10px;letter-spacing:.03em;line-height:1.4}
+.cpanel img{width:100%;height:auto;display:block;aspect-ratio:3/2;object-fit:cover;object-position:center 32%}
+.cpanel-text{background:#FFFFFF;color:#111318;padding:9px 11px 11px;display:flex;flex-direction:column;gap:6px;border-top:2px solid #101216}
+.cnarr{background:#FFFFFF;color:#111318;border:1.5px solid #111318;padding:6px 8px;font-size:12.5px;font-weight:600;line-height:1.55;max-width:100%}
+.csay{background:#FFFFFF;color:#111318;border:1.5px solid #111318;border-radius:10px;padding:6px 9px;font-size:12.5px;font-weight:700;line-height:1.55;max-width:94%;align-self:flex-start}
+.csay.r{align-self:flex-end}
+.csay.ph{background:#EAF1FE}
+.csay small{display:block;font-size:10px;font-weight:900;color:#D94800;letter-spacing:.03em;margin-bottom:1px}
+.cmono{background:#F6F4EF;color:#111318;border:1.5px solid #111318;padding:6px 8px;font-size:12px;font-weight:500;line-height:1.55;max-width:100%;align-self:flex-start}
+@media(min-width:640px){.cnarr{font-size:13.5px}.csay{font-size:13.5px}.cmono{font-size:13px}.cpanel-text{padding:11px 14px 13px}}
+</style>
+</head>
+<body>
+
+<div class="pr-bar"><b>【PR・広告】</b> このページはアフィリエイト広告を利用しています。紹介している「メーカーズジョブ」は広告主（株式会社MyVision）のサービスです。</div>
+
+<header class="hero">
+<div class="wrap">
+<span class="eyebrow">製造業の技術職経験者だけのための転職相談</span>
+<h1>その技術、<br><span class="hl">安く見積もられて</span><br>いないか？</h1>
+<p class="lead">生産技術10年。ラインを止めない工夫も、歩留まりを上げた改善も、自分では「当たり前」だと思っていた。でも、今の会社の評価と給料は、本当に見合っているんだろうか——。</p>
+<div class="hero-img"><img src="assets/hero.webp" alt="夜の工場でヘルメットを手に考え込む、30代後半の製造業技術職の男性を描いたマンガイラスト"></div>
+<div class="chips">
+<span class="chip">✓ 相談は無料</span>
+<span class="chip">✓ 在職中の相談OK</span>
+<span class="chip">✓ 製造業に特化</span>
+<span class="chip">✓ 入力は4項目だけ</span>
+</div>
+<a class="manga-btn" href="#manga">📖 マンガ全7話を読む（各話4〜5コマ・大きな絵）<small>第1話「昇給3,000円」から</small></a>
+<a class="cta" href="https://form.makers-job.jp/promotions/delivery/fb6c8b52-f808-47cb-a9c3-7b13690c01d0" rel="sponsored noopener" target="_blank">無料キャリア面談に申し込む<small>メーカーズジョブ公式フォームへ進みます</small></a>
+<p class="cta-note">申し込むと、まず確認のお電話がかかってきます。いきなり転職を決める必要はありません（流れは下で正直に説明しています）。</p>
+<a class="game-mini" href="https://oyajibuki.github.io/jobgame/" target="_blank" rel="noopener">🎲 まだ転職は考え中…という方は、まず職業人生ゲームで遊んでみる →</a>
+</div>
+</header>
+
+<main class="wrap">
+
+
+<!-- マンガ詳細版 -->
+<section id="manga">
+<div class="sec-head"><div class="sec-num">1</div><h2>マンガ全7話：タカハシ（38歳・生産技術）</h2></div>
+<div class="recap"><b>読み方：</b> 第1話〜第7話を、<b>1話4〜5コマ・大きな絵</b>で掲載しています。ナレーションとセリフは絵には重ねず、<b>各コマの絵のすぐ下に小さめの文字で</b>添えてあります。顔が見えたまま、絵と文字を順に読めます。最初から通して読むのがおすすめです。</div>
+<p class="sec-sub">これは特定の誰かの体験談ではなく、製造業の技術職によくある悩みをマンガにしたフィクションです。成功や年収アップを約束する話ではありません。結末は「転職して成功」ではなく、「選択肢を知り、自分の条件で一歩踏み出す決断」までです。作中に登場する求人や条件は物語上の例であり、実際の求人を保証するものではありません。</p>
+
+<h3 style="font-size:17px;margin:0 0 12px">登場人物</h3>
+<div class="cast">
+<div><span>主人公</span><b>タカハシ（38）・生産技術 10年</b>組立ライン立上げ、治具設計、設備の条件出しが仕事。真面目だが、自分の経験を言葉にするのが苦手。</div>
+<div><span>同僚</span><b>佐藤・保全担当</b>現場でタカハシを頼りにしている後輩気質の同僚。休憩室の会話とゲームのきっかけ役。</div>
+<div><span>上司</span><b>課長</b>悪人ではない。だが査定基準の中でしか人を評価できない、今の会社の物差しを体現する人物。</div>
+<div><span>家族</span><b>妻・ユキ／息子・ハル（小学生）</b>夜勤と残業でずれる家族の時間を象徴する存在。タカハシの本音を引き出す。</div>
+<div><span>電話の声</span><b>大手転職サービスの担当者</b>丁寧だが、生産技術の設備や工程には詳しくない。第2話で「言葉が通じない」壁になる。</div>
+<div><span>電話・面談</span><b>メーカーズジョブの担当者</b>製造業に特化し、生産技術の話を前提知識として理解する。第3話の電話と第4話の面談に登場。</div>
+</div>
+
+<div style="display:grid;gap:10px;margin-bottom:8px">
+<img src="assets/hero.webp" alt="夜の工場でヘルメットを手に考え込む技術職男性のマンガイラスト（第1話のイメージ）" style="border:3px solid var(--line);border-radius:8px;box-shadow:var(--shadow)">
+</div>
+
+<article class="ep-block" id="ep1">
+<div class="ep-head"><div class="ep-no">第1話</div><div><h3>昇給3,000円</h3><p>夜勤明け／給与明細／同僚と課長／疲れて帰る家 ― 全5コマ</p></div></div>
+<p class="ep-lead"><b>あらすじ：</b> 夜勤のトラブルを一人で収めた翌日、給与明細に載っていた昇給は月3,000円。歩留まり改善は「評価対象外」。技術を磨いても評価されない閉塞感が、静かに積もっていく。</p>
+<div class="comic-grid" id="manga-ep1"></div>
+<div class="ep-end"><b>第1話の終わり：</b> 辞める決意はない。あるのは「このままでいいのか」という問いだけ。その問いが、次の行動につながっていく。</div>
+<p class="next-ep">▼ 第2話へ続く ▼</p>
+</article>
+
+<article class="ep-block" id="ep2">
+<div class="ep-head"><div class="ep-no">第2話</div><div><h3>言葉が通じない</h3><p>大手転職サイトへの登録／電話／ズレた紹介求人 ― 全5コマ</p></div></div>
+<p class="ep-lead"><b>あらすじ：</b> 相場を知りたくて登録した大手転職サイト。だが担当者に「生産技術」の話が通じず、届いたのはライン作業や検品の求人ばかり。10年の経験が『工場勤務』の一言にまとめられていく。</p>
+<div class="comic-grid" id="manga-ep2"></div>
+<div class="ep-end"><b>第2話の終わり：</b> 問題は能力ではなく「伝える相手」だったのかもしれない——その可能性に、まだタカハシは確信が持てていない。</div>
+<p class="next-ep">▼ 第3話へ続く ▼</p>
+</article>
+
+<article class="ep-block" id="ep3">
+<div class="ep-head"><div class="ep-no">第3話</div><div><h3>専門の担当</h3><p>ゲーム「7千万分の1」／対象チェック／申込と電話 ― 全4コマ</p></div></div>
+<p class="ep-lead"><b>あらすじ：</b> 休憩室で同僚が遊んでいた職業人生ゲーム「7千万分の1」が、思わぬ入口になる。製造業特化のメーカーズジョブを知り、対象チェックを経て申し込むと、電話の相手は最初から話が通じた。</p>
+<div class="comic-grid" id="manga-ep3"></div>
+<div class="ep-end"><b>第3話の終わり：</b> 申込後に電話が来ることは最初から明記されていた。その電話で日程が決まり、次はいよいよ面談の日。</div>
+<p class="next-ep">▼ 第4話へ続く ▼</p>
+</article>
+
+<article class="ep-block" id="ep4">
+<div class="ep-head"><div class="ep-no">第4話</div><div><h3>面談の日</h3><p>面談準備のメモ／無料面談／市場価値と非公開求人 ― 全5コマ</p></div></div>
+<p class="ep-lead"><b>あらすじ：</b> 前夜に「今の年収／担当設備・工程／変えたい条件」をメモして臨んだ無料面談。担当者は転職を迫らず、経験の棚卸しと市場での評価のされ方を伝える。渡されたのは答えではなく、判断の材料だった。</p>
+<div class="comic-grid" id="manga-ep4"></div>
+<div style="margin-top:16px"><img src="assets/future.webp" alt="明るい工場で前を向く技術職男性のマンガイラスト（第4話ラストのイメージ）" style="border:3px solid var(--line);border-radius:8px;box-shadow:var(--shadow);width:100%"></div>
+<div class="ep-end"><b>第4話の終わり：</b> 面談は「転職成功」では終わらなかった。知ったのは選択肢と、自分の市場価値。だが数日後、紹介された求人を前にして、タカハシの迷いが始まる。</div>
+<p class="next-ep">▼ 第5話へ続く ▼</p>
+</article>
+
+<article class="ep-block" id="ep5">
+<div class="ep-head"><div class="ep-no">第5話</div><div><h3>紹介された求人</h3><p>届いた求人／条件への迷い／休憩室の声 ― 全4コマ</p></div></div>
+<p class="ep-lead"><b>あらすじ：</b> 面談の数日後、合いそうな求人が紹介された。夜勤なし、立上げ中心——条件は悪くない。むしろ今より良い部分もある。それでも踏み切れないタカハシの前に、「迷い」の正体が少しずつ見えてくる。</p>
+<div class="comic-grid" id="manga-ep5"></div>
+<div class="ep-end"><b>第5話の終わり：</b> 決められない理由は、条件の不足じゃなかった。家族にまだ話していないこと、今の現場への気持ち——整理できていないのは、条件より自分の側だった。</div>
+<p class="next-ep">▼ 第6話へ続く ▼</p>
+</article>
+
+<article class="ep-block" id="ep6">
+<div class="ep-head"><div class="ep-no">第6話</div><div><h3>家族と、今の会社と</h3><p>家族に話す／課長への相談／比べられるということ ― 全5コマ</p></div></div>
+<p class="ep-lead"><b>あらすじ：</b> 求人のことを、家族に全部話した。そして週明け、10年言えなかった「夜勤と評価の相談」を課長に切り出す。残るにしても動くにしても、「比べた上で選ぶ」ための材料がそろっていく。</p>
+<div class="comic-grid" id="manga-ep6"></div>
+<div class="ep-end"><b>第6話の終わり：</b> 家族の理解、今の会社での自分の居場所、紹介先の条件。材料はそろった。あとはタカハシ自身が決めるだけになった。</div>
+<p class="next-ep">▼ 最終話へ続く ▼</p>
+</article>
+
+<article class="ep-block" id="ep7">
+<div class="ep-head"><div class="ep-no">第7話</div><div><h3>選ぶということ（最終話）</h3><p>応募の電話／仲間と家族へ／朝の工場 ― 全4コマ</p></div></div>
+<p class="ep-lead"><b>あらすじ：</b> 数週間で、タカハシの状況そのものは何も変わっていない。変わったのは、自分の経験を言葉にできて、選択肢を知って、「比べた上で決める」側に立ったこと。その一歩を描く最終話。</p>
+<div class="comic-grid" id="manga-ep7"></div>
+<div class="ep-end"><b>最終話の終わり：</b> これは転職成功の話ではありません。結果はまだ出ていない。それでも「このまましかない」から「自分で選ぶ」へ——その変化こそが、このマンガの結末です。あなたの場合はどうか、下の対象チェックで確かめてみてください。</div>
+</article>
+
+<a class="cta" href="#check" style="margin-top:18px">マンガの次へ：対象チェック（3問）をやってみる<small>全部タップで答えると、あなた向けの次のボタンが表示されます</small></a>
+</section>
+
+<!-- 対象チェック -->
+<section id="check">
+<div class="sec-head"><div class="sec-num">2</div><h2>申込む前に：対象チェック</h2></div>
+<p class="sec-sub">メーカーズジョブは「誰でもOK」のサービスではありません。まず3つの質問にタップで答えてください。結果に応じて、次に進むボタンを表示します。</p>
+
+<div class="quiz" id="quiz">
+<div class="quiz-q" data-q="0">
+<p><span>Q1.</span>製造業（メーカー）で働いた経験がありますか？</p>
+<div class="quiz-opts"><button type="button" data-v="yes">はい</button><button type="button" data-v="no">いいえ</button></div>
+</div>
+<div class="quiz-q" data-q="1">
+<p><span>Q2.</span>技術職の経験がありますか？（設計／生産技術／品質保証／研究開発／組み込みなど）</p>
+<div class="quiz-opts"><button type="button" data-v="yes">はい</button><button type="button" data-v="no">いいえ</button></div>
+</div>
+<div class="quiz-q" data-q="2">
+<p><span>Q3.</span>今の働き方や評価のされ方を、変えたいと思いますか？</p>
+<div class="quiz-opts"><button type="button" data-v="yes">はい</button><button type="button" data-v="no">いいえ</button></div>
+</div>
+<div class="quiz-result" id="quiz-ok">
+<h3>✓ あなたはメーカーズジョブの対象です</h3>
+<p id="quiz-ok-msg">製造業の技術職経験者向けのサービスなので、話が通じる担当と無料面談ができます。申込後は確認のお電話がかかってきます。その前提で進んでください。</p>
+<a class="cta" href="https://form.makers-job.jp/promotions/delivery/fb6c8b52-f808-47cb-a9c3-7b13690c01d0" rel="sponsored noopener" target="_blank">無料キャリア面談に申し込む<small>入力は氏名・生年月日・メール・電話の4項目</small></a>
+</div>
+<div class="quiz-result" id="quiz-ng">
+<h3>今回は対象外の可能性があります</h3>
+<p>メーカーズジョブは製造業の技術職経験者が対象で、対象外の場合は面談をご案内できません。無理に申し込むより、まずは軽く遊べる職業シミュレーションゲームで「仕事と人生」について考えてみるのがおすすめです。</p>
+<a class="cta" href="https://oyajibuki.github.io/jobgame/" target="_blank" rel="noopener" style="background:var(--navy)">ゲーム「7千万分の1」で遊んでみる<small>最初の仕事は選べなかった。でも、次の仕事は自分で選べる。</small></a>
+</div>
+<p class="note" id="quiz-hint">3問すべてに答えると、結果がここに表示されます。回答はこのページの中だけで使われ、保存・送信されません。</p>
+</div>
+
+<div class="check-grid">
+<div class="check-box ok">
+<h3 style="color:var(--ok)">対象になる方</h3>
+<ul>
+<li>電気・機械・化学などのメーカーで働いた経験がある</li>
+<li>設計（電気／機械／回路など）の経験者</li>
+<li>生産技術の経験者</li>
+<li>品質保証・品質管理の経験者</li>
+<li>研究開発の経験者</li>
+<li>組み込み・制御系の経験者</li>
+<li>在職中でもOK（まず相談だけでも可）</li>
+</ul>
+</div>
+<div class="check-box ng">
+<h3 style="color:var(--ng)">対象外の方</h3>
+<ul>
+<li>製造業での勤務経験がない方</li>
+<li>工場オペレーター／ライン作業のみを希望する方</li>
+<li>期間工・派遣オペレーターを希望する方</li>
+<li>メーカーの技術職以外の職種だけを希望する方</li>
+</ul>
+<p class="note">対象外の方が申し込んでも、面談をご案内できない場合があります。時間の無駄を避けるためにも、このチェックを挟んでいます。</p>
+</div>
+</div>
+</section>
+
+<!-- AI -->
+<section id="ai">
+<div class="sec-head"><div class="sec-num">3</div><h2>AI時代に、技術職はどうなる？</h2></div>
+<div class="panel" style="margin-bottom:16px"><img src="assets/future.webp" alt="ロボットアームのある明るい工場で前を向く技術職の男性のマンガイラスト"></div>
+<div class="ai-box">
+<p>AIや自動化で、<b>単純作業・定型作業は置き換えが進む</b>と言われています。一方で、設備の異音に気づく、現場の条件に合わせて段取りを組み替える、トラブルの原因を切り分ける——こうした<b>現場と設備を知る技術者は代替しにくい、という見方があります</b>。</p>
+<p>だからこそ大事なのは、「今いる会社の評価」だけで自分の価値を決めてしまわないことです。外の市場ではどう見えるのかを知るだけでも、これから学ぶべきこと・伸ばすべき経験が見えてきます。</p>
+<p>急ぐ理由があるとすれば、煽りではなく事実の話です。一般に、<b>年齢が若いほど応募できる求人の幅は広い傾向</b>があります。そして無料相談は、転職しなくても「今の自分の市場価値」という判断材料が手に入ります。知るのが早いほど、選び直す余地は大きくなります。</p>
+</div>
+</section>
+
+<!-- 無料相談で分かること -->
+<section id="merit">
+<div class="sec-head"><div class="sec-num">4</div><h2>無料相談で分かること</h2></div>
+<p class="sec-sub">面談で「成功が約束される」わけではありません。分かるのは、次の3つです。</p>
+<div class="why-grid">
+<div class="why"><div class="n">分かること 01</div><h3>自分の市場価値</h3><p>今の経験・スキルが、他のメーカーではどの水準で評価されるのか。年収の目安も含め、第三者の視点で棚卸しできます。</p></div>
+<div class="why"><div class="n">分かること 02</div><h3>非公開の限定求人</h3><p>製造業出身の方におすすめの、独自の限定求人があると案内されています。一般の求人サイトに出ない選択肢が見えることがあります。</p></div>
+<div class="why"><div class="n">分かること 03</div><h3>技術が通じる担当</h3><p>製造業に特化した担当者だから、生産技術・設計・品質の話を一から説明し直す必要がありません。話が通じた上で相談できます。</p></div>
+</div>
+<div class="stat">
+<div class="big">平均年収UP <span>143万円</span> という訴求について</div>
+<p>メーカーズジョブの案内では「平均年収UP 143万円」と紹介されています。これは <strong>2026年1〜3月に、年収が上がって内定を承諾した人だけの平均</strong> です。全員が上がる数字ではなく、年収が変わらなかった人・転職しなかった人は含まれていません。目安の一つとして受け取ってください。</p>
+</div>
+</section>
+
+<!-- 流れ -->
+<section id="flow">
+<div class="sec-head"><div class="sec-num">5</div><h2>申込から面談までの流れ</h2></div>
+<p class="sec-sub">「申し込んだら何が起きるか」を先に全部書いておきます。特に、電話がかかってくることは隠しません。</p>
+<div class="steps">
+<div class="step"><div class="step-n">1</div><div><h3>フォーム入力（4項目だけ）</h3><p>氏名・生年月日・メールアドレス・電話番号を入力して送信します。履歴書のアップロードはこの時点では不要です。</p></div></div>
+<div class="step"><div class="step-n">2</div><div><h3>確認の電話がかかってきます</h3><p>申込後、担当から電話連絡があります。本人確認と、面談日程の相談のためです。<span class="warn">⚠ 申込＝電話が来る、と思ってください。知らない番号でも出られるよう準備を。</span></p></div></div>
+<div class="step"><div class="step-n">3</div><div><h3>日程を調整する</h3><p>電話で都合を合わせて、無料キャリア面談の日時を決めます。在職中の方は、仕事の都合も含めて相談してください。</p></div></div>
+<div class="step"><div class="step-n">4</div><div><h3>無料キャリア面談</h3><p>これまでの経験と希望を話し、市場価値や合いそうな求人の考え方を聞きます。面談を受けたからといって、転職しなければならないわけではありません。</p></div></div>
+<div class="step"><div class="step-n">5</div><div><h3>希望すれば求人紹介へ</h3><p>「もっと詳しく知りたい」と思えたら、その先へ。思えなければ、そこで終わりにしても構いません。</p></div></div>
+</div>
+<div class="prep">
+<h3>✎ 面談準備ミニチェック（面談前に、この3点だけメモ）</h3>
+<p>面談は「試される場」ではありません。でも、この3点をメモしておくだけで、市場価値の話がぐっと具体的になります。スマホのメモで十分です。</p>
+<ul>
+<li>今の年収<span>手取りではなく額面で。賞与込みの年収が分かると話が早いです。</span></li>
+<li>担当してきた設備・工程<span>ライン名でなくてOK。「○○の組立ライン立上げ」「治具設計」「歩留まり改善」など、やってきたことの言葉で。</span></li>
+<li>変えたい条件<span>夜勤を減らしたい／年収を上げたい／技術を評価されたい／通勤を短くしたい——本音で1〜2個。</span></li>
+</ul>
+</div>
+<a class="cta" href="https://form.makers-job.jp/promotions/delivery/fb6c8b52-f808-47cb-a9c3-7b13690c01d0" rel="sponsored noopener" target="_blank">流れを確認した上で、無料面談に申し込む<small>入力は氏名・生年月日・メール・電話の4項目</small></a>
+</section>
+
+<!-- ゲーム導線 -->
+<section id="game">
+<div class="game">
+<div class="g-label">おまけ｜職業シミュレーションゲーム</div>
+<h2>最初の仕事は選べなかった。<br>でも、次の仕事は自分で選べる。</h2>
+<p>「7千万分の1」は、329の職業からランダムに最初の仕事が決まり、転職しながら一生のキャリアを生きる無料のブラウザゲームです。就職が“運”だったあの感覚を、まず遊んで思い出してみてください。</p>
+<a href="https://oyajibuki.github.io/jobgame/" target="_blank" rel="noopener">ゲーム「7千万分の1」を遊ぶ →</a>
+</div>
+</section>
+
+<!-- FAQ -->
+<section id="faq">
+<div class="sec-head"><div class="sec-num">6</div><h2>よくある質問</h2></div>
+<details class="faq"><summary>相談は本当に無料ですか？</summary><div class="a">無料のキャリア面談として案内されています。求職者から手数料を取ることは職業安定法で原則禁止されており、費用は採用側の企業が負担する仕組みが一般的です。</div></details>
+<details class="faq"><summary>申し込むと何が起きますか？電話は来ますか？</summary><div class="a">はい、来ます。申込フォーム送信後、本人確認と面談日程の調整のため、担当から電話連絡があります。「電話は困る」という方は、申し込む前にその前提で考えてください。</div></details>
+<details class="faq"><summary>今の会社に転職活動がバレませんか？</summary><div class="a">在職中の相談を前提としたサービスです。ただし、申込後の電話連絡のタイミングには注意してください。勤務時間中に出られない場合は、日程調整の際に都合を伝えるのが安全です。</div></details>
+<details class="faq"><summary>面談したら、必ず転職しないといけませんか？</summary><div class="a">いいえ。面談は「自分の市場価値を知る」ためのものです。話を聞いて今の会社に残る判断をしても構いません。</div></details>
+<details class="faq"><summary>工場オペレーター希望でも申し込めますか？</summary><div class="a">メーカーズジョブは電気・機械・化学メーカーの技術職（設計／生産技術／品質保証／研究開発／組み込み等）の経験者が対象で、オペレーター・期間工希望の方は対象外とされています。対象外の場合は面談をご案内できないことがあります。</div></details>
+<details class="faq"><summary>年収は必ず上がりますか？</summary><div class="a">保証はできません。「平均年収UP 143万円」は、2026年1〜3月に年収が上がって内定を承諾した人の平均であり、全員に当てはまる数字ではありません。上がるかどうかは、経験・職種・タイミングによります。</div></details>
+</section>
+
+<div class="final">
+<h2>まず、自分の値段を<br>聞いてみませんか。</h2>
+<p>転職するかどうかは、聞いてから決めればいい。対象に当てはまる製造業の技術職の方なら、無料面談で「今の自分の市場価値」だけでも持ち帰れます。</p>
+<a class="cta" href="https://form.makers-job.jp/promotions/delivery/fb6c8b52-f808-47cb-a9c3-7b13690c01d0" rel="sponsored noopener" target="_blank">無料キャリア面談に申し込む<small>メーカーズジョブ公式フォーム｜入力4項目</small></a>
+<p class="cta-note">申込後、確認のお電話がかかってきます。その前提でどうぞ。</p>
+</div>
+
+<footer>
+<p>このページはアフィリエイト広告（A8.net経由を想定）を利用した紹介ページです。リンク先のサービス「メーカーズジョブ」の運営は株式会社MyVision（有料職業紹介事業許可番号 13-ユ-314719）です。マンガの登場人物・ストーリーは、製造業の技術職によくある悩みを表現したフィクションであり、実在の利用者の体験談ではありません。年収に関する数値は本文中に条件を併記しています。サービスの最新条件は、申込先の公式フォームでご確認ください。</p>
+<p>参考：メーカーズジョブ申込フォーム（form.makers-job.jp）／ ゲーム「7千万分の1」 <a href="https://oyajibuki.github.io/jobgame/" target="_blank" rel="noopener">oyajibuki.github.io/jobgame</a></p>
+</footer>
+</main>
+
+<div class="sticky">
+<div class="t">製造業の技術職の方へ<span>無料キャリア面談｜申込後に電話連絡あり</span></div>
+<a href="https://form.makers-job.jp/promotions/delivery/fb6c8b52-f808-47cb-a9c3-7b13690c01d0" rel="sponsored noopener" target="_blank">無料面談に申込む →</a>
+</div>
+
+<script>
+(function(){
+  var answers=[null,null,null];
+  var questions=document.querySelectorAll(".quiz-q");
+  var okBox=document.getElementById("quiz-ok");
+  var ngBox=document.getElementById("quiz-ng");
+  var okMsg=document.getElementById("quiz-ok-msg");
+  var hint=document.getElementById("quiz-hint");
+  function render(){
+    if(answers.indexOf(null)!==-1){
+      okBox.className="quiz-result"; ngBox.className="quiz-result"; return;
+    }
+    var eligible=(answers[0]==="yes" && answers[1]==="yes");
+    if(eligible){
+      ngBox.className="quiz-result";
+      okBox.className="quiz-result okbox show";
+      if(answers[2]==="no"){
+        okMsg.textContent="対象には当てはまります。今すぐ働き方を変えるつもりがなくても、市場価値を知るだけの相談でも構いません。申込後は確認のお電話がかかってきます。";
+      }else{
+        okMsg.textContent="製造業の技術職経験者向けのサービスなので、話が通じる担当と無料面談ができます。申込後は確認のお電話がかかってきます。その前提で進んでください。";
+      }
+      okBox.scrollIntoView({behavior:"smooth",block:"nearest"});
+    }else{
+      okBox.className="quiz-result";
+      ngBox.className="quiz-result ngbox show";
+      ngBox.scrollIntoView({behavior:"smooth",block:"nearest"});
+    }
+    hint.textContent="結果はあなたの回答に合わせて表示しています。回答はこのページの中だけで使われ、保存・送信されません。";
+  }
+  for(var i=0;i<questions.length;i++){
+    (function(qEl,qi){
+      var btns=qEl.querySelectorAll("button");
+      for(var j=0;j<btns.length;j++){
+        (function(btn){
+          btn.addEventListener("click",function(){
+            answers[qi]=btn.getAttribute("data-v");
+            for(var k=0;k<btns.length;k++){ btns[k].className=""; }
+            btn.className=(btn.getAttribute("data-v")==="yes")?"sel-yes":"sel-no";
+            render();
+          });
+        })(btns[j]);
+      }
+    })(questions[i],i);
+  }
+})();
+</script>
+<script>
+/* ===== Cinematic manga (photorealistic wide panels, text inside the frame) ===== */
+(function(){
+"use strict";
+function esc(s){return s.replace(/&/g,"&amp;").replace(/</g,"&lt;");}
+function panelHTML(p,idx,ep){
+  var s='<article class="cpanel"><div class="cpanel-head">'+esc(p.label)+'</div><img src="assets/cine/e'+ep+'p'+(idx+1)+'.jpg" alt="マンガのコマ（実写風）：'+esc(p.label)+'">';
+  var bs=p.bubs||[];
+  if(p.narr||bs.length||p.mono){
+    s+='<div class="cpanel-text">';
+    if(p.narr){ s+='<div class="cnarr">'+esc(p.narr)+'</div>'; }
+    for(var j=0;j<bs.length;j++){
+      var b=bs[j];
+      s+='<div class="csay'+(b.side==="r"?" r":"")+(b.t==="phone"?" ph":"")+'">';
+      if(b.name)s+='<small>'+esc(b.name)+'</small>';
+      s+=esc(b.text)+'</div>';
+    }
+    if(p.mono)s+='<div class="cmono">'+esc(p.mono)+'</div>';
+    s+='</div>';
+  }
+  s+='</article>';
+  return s;
+}
+var EPS=[
+/* ===== 第1話 昇給3,000円（全5コマ） ===== */
+[
+{label:"早朝 5:40｜工場・組立ライン",
+ narr:"生産技術10年、タカハシ（38）。夜勤のトラブル対応は、もう何度目か分からない。",
+ bubs:[
+  {name:"保全・佐藤",side:"r",text:"センサーまた誤検知です。始業に間に合いません…"},
+  {name:"タカハシ",side:"l",text:"分かってる。治具側のガタだ。こっち押さえて。3分で戻す"}],
+ mono:"（ラインを止めないのは当たり前。でも、その『当たり前』を、誰が見てるんだろう）"},
+{label:"翌日 昼｜休憩室・給与明細",
+ narr:"今日は給料日。査定結果が、明細に反映される日だった。",
+ bubs:[
+  {name:"タカハシ（小声）",side:"l",text:"……3,000円。月、3,000円か"}],
+ mono:"（歩留まりは去年より改善した。不良対応の残業も、自分が一番多かったはずなのに）"},
+{label:"昼休み｜休憩室・同僚との会話",
+ bubs:[
+  {name:"佐藤",side:"r",text:"俺、2,500円でした。まあ、全員ほぼ横並びらしいです"},
+  {name:"タカハシ",side:"l",text:"横並び、ね。改善提案は3件出したが、全部『評価対象外』"}],
+ mono:"（止めないための工夫が、一番見えない。それが、この仕事のしんどさだ）"},
+{label:"夕方｜課長席",
+ bubs:[
+  {name:"タカハシ",side:"l",text:"課長、歩留まり改善は評価に入らないんですか？"},
+  {name:"課長",side:"r",text:"査定は『決められた業務をこなしたか』が基準でね。改善は本来業務の範囲内だ"}],
+ mono:"（『範囲内』。技術を磨くほど、当たり前になっていく）"},
+{label:"夜 20:30｜帰宅・リビング",
+ narr:"帰宅した夜、息子ハルに「パパ、今日はいるの？ 明日もいない？」と聞かれた。",
+ bubs:[
+  {name:"妻・ユキ",side:"r",text:"おかえり。ハル、昨日は先に寝ちゃったよ"},
+  {name:"タカハシ",side:"l",text:"……ごめん。明日は、いるつもりだ"}],
+ mono:"（『いるつもり』しか言えない。辞めたいわけじゃない。ただ、このまま10年経ったら、俺の技術は誰に伝わってるんだろう）"}
+],
+/* ===== 第2話 言葉が通じない（全5コマ） ===== */
+[
+{label:"休日 午前｜自宅リビング",
+ bubs:[
+  {name:"ユキ",side:"r",text:"何見てるの？ ……転職サイト？ 知るだけなら、いいんじゃない"},
+  {name:"タカハシ",side:"l",text:"情報収集だよ。生産技術の相場って、どれくらいかと"}],
+ mono:"（登録くらい、してみるか。転職を決めたわけじゃない）"},
+{label:"数日後｜駐車場・大手の電話",
+ bubs:[
+  {t:"phone",name:"大手転職サービスの担当者（電話）",side:"r",text:"ご登録ありがとうございます！ 今は『工場勤務』で合ってますか？"},
+  {name:"タカハシ",side:"l",text:"職種は生産技術です。ライン立上げが中心で…"}],
+ mono:"（……この時点で、もう話がかみ合っていない気がする）"},
+{label:"その夜｜電話と、届いた求人",
+ bubs:[
+  {t:"phone",name:"担当者（電話）",side:"r",text:"PLC……というのは、資格の名前ですか？"},
+  {name:"タカハシ",side:"l",text:"いえ、制御の……。生産技術の求人を扱ってる方ですか？"}],
+ mono:"（説明すればするほど、ズレていく。届いた求人はライン作業、検品、事務……。生産技術の求人が、一件もない）"},
+{label:"夜｜キッチンでもう一度電話",
+ bubs:[
+  {name:"タカハシ",side:"l",text:"あの、生産技術とか設備導入の求人はないんですか？"},
+  {t:"phone",name:"担当者（電話）",side:"r",text:"ご経験ですと、まずは現場のお仕事から入って、実績を作るのが近道かと…"}],
+ mono:"（現場の仕事なら、今もやっている。10年、やってきた）"},
+{label:"朝｜洗面所の鏡",
+ narr:"落ち込んでいたのは、転職ではなく『伝わらないこと』だった。",
+ mono:"（市場で通用しないのか。それとも、伝え方と、伝える相手が違っただけなのか——まだ、分からない）"}
+],
+/* ===== 第3話 専門の担当（全4コマ） ===== */
+[
+{label:"昼休み｜休憩室・ゲーム",
+ bubs:[
+  {name:"佐藤",side:"r",text:"あー！ 職業ガチャ、また外した！ 今回は『パン職人』スタート。最初の仕事は選べないんです。転職しながら一生を生きるゲーム"},
+  {name:"タカハシ",side:"l",text:"何それ、楽しそうだな"}],
+ mono:"（最初の仕事は選べない——。俺も、流されてきたのかもしれない）"},
+{label:"その夜｜自宅でゲームを遊ぶ",
+ bubs:[
+  {name:"ユキ",side:"r",text:"あんたまでハマってるじゃん。ゲームの中では転職するんだね"},
+  {name:"タカハシ",side:"l",text:"最初の職業が、生産技術っぽい所でさ。転職、真剣に考えちゃうんだよ"}],
+ mono:"（……図星だ）"},
+{label:"ゲームの先｜メーカーズジョブを知る",
+ narr:"ゲームのページで、製造業特化の転職支援『メーカーズジョブ』を知る。",
+ mono:"（製造業に特化……？ 職種が、ちゃんと分かれて書いてある。対象チェックは3問——製造業の経験、技術職の経験、今の働き方を変えたいか。全部、正直に『はい』だ）"},
+{label:"翌日｜工場前・話が通じる電話",
+ bubs:[
+  {t:"phone",name:"メーカーズジョブ担当者（電話）",side:"r",text:"ご経歴、拝見しました。組立ラインの立上げと治具設計が中心で合ってますか"},
+  {name:"タカハシ",side:"l",text:"はい。あと歩留まり改善で、PLCの条件出しもやってて——"}],
+ mono:"（——合ってる。最初から、合ってる。『話が通じる』だけで、足取りは軽くなっていた）"}
+],
+/* ===== 第4話 面談の日（全5コマ） ===== */
+[
+{label:"面談前夜｜準備のメモ",
+ narr:"面談の前夜。タカハシは、面談準備のメモを書き始めた。",
+ bubs:[
+  {name:"ユキ",side:"r",text:"ちゃんとメモしてる。面接みたいだね"},
+  {name:"タカハシ",side:"l",text:"試される場じゃないらしい。でも設備と工程を言葉にしておかないと"}],
+ mono:"（また『工場勤務』で終わる気がして——）"},
+{label:"面談当日｜オンライン面談",
+ bubs:[
+  {t:"phone",name:"メーカーズジョブ担当者",side:"r",text:"まず結論を急がず、ご経験を棚卸しさせてください。一番工夫されたのはどこですか？"},
+  {name:"タカハシ",side:"l",text:"段取り替えの時間です。治具を共通化して、45分を20分にしました"},
+  {t:"phone",name:"担当者",side:"r",text:"その『治具の共通化』、言葉にできてるのが大きいです"}]},
+{label:"面談中盤｜市場価値と非公開求人",
+ bubs:[
+  {t:"phone",name:"担当者",side:"l",text:"タカハシさんの経験は、『立上げができる人』として見られます。量産維持だけの経験とは、評価が違うんです"},
+  {t:"phone",name:"担当者",side:"l",text:"求人には、一般公開されていないものもあります。今日、決める必要はありません"}],
+ mono:"（『誰でもできる当たり前』だと思っていた経験が、外では違う物差しで見られていた。渡されたのは『答え』じゃなく、『材料』だった）"},
+{label:"面談の後｜リビングで妻に話す",
+ bubs:[
+  {name:"ユキ",side:"r",text:"どうだった？ 転職、決めたの？"},
+  {name:"タカハシ",side:"l",text:"決めてない。ただ…俺の経験、思ってたより悪くないらしい。選択肢はある"}],
+ mono:"（残るか、動くかはこれから考える。でも『このまましかない』じゃなくなった）"},
+{label:"翌朝｜工場へ向かう",
+ narr:"タカハシの面談は終わった。だが、話はまだ続いていく。",
+ mono:"（最初の仕事は選べなかった。でも、次の仕事は——自分で選べる）"}
+],
+/* ===== 第5話 紹介された求人（全4コマ） ===== */
+[
+{label:"面談から数日後｜自宅・通知",
+ narr:"面談から数日後、スマホが震えた。",
+ bubs:[
+  {t:"phone",name:"メーカーズジョブ（お知らせ）",side:"l",text:"面談ありがとうございました。合いそうな求人をご紹介します"}],
+ mono:"（もう来た。……見るのが、少し怖い）"},
+{label:"その夜｜リビングで求人を見る",
+ narr:"紹介されたのは、生産技術の求人だった。",
+ bubs:[
+  {name:"ユキ",side:"r",text:"へえ、夜勤ないんだ。今より条件、良くない？"},
+  {name:"タカハシ",side:"l",text:"良さそうな所もある。でも本当に合うのか、まだ分からない"}],
+ mono:"（夜勤なし。勤務地も今とほぼ同じ。設備の立上げが中心の仕事——決め手が分からない）"},
+{label:"翌日｜休憩室・同僚の声",
+ bubs:[
+  {name:"佐藤",side:"l",text:"タカハシさんがいなくなったら、ライン止まっちゃいますよ"},
+  {name:"タカハシ",side:"r",text:"……まだ何も決めてないよ"}],
+ mono:"（心配してくれる声が、嬉しくて、重い）"},
+{label:"夜｜メモに書き並べて比べる",
+ narr:"その夜、紹介先と今の会社を、メモに書き並べて比べた。",
+ mono:"（紹介先：夜勤なし・立上げ中心。不安は相性。今の会社：仲間と慣れた現場。不安は評価と夜勤。——迷えるのは、選択肢があるからだ。明日、家族に全部話そう）"}
+],
+/* ===== 第6話 家族と、今の会社と（全5コマ） ===== */
+[
+{label:"休日｜リビング・家族に話す",
+ narr:"休日。タカハシは家族に、紹介された求人のことを話した。",
+ bubs:[
+  {name:"タカハシ",side:"l",text:"転職先の候補がある。まだ決めてないけど、隠さず話しておきたくて"},
+  {name:"ユキ",side:"r",text:"うん、聞くよ"}]},
+{label:"家族の答え｜お金より体",
+ bubs:[
+  {name:"ユキ",side:"l",text:"お金より、夜勤で体を壊す方が心配だよ。無理はしてほしくない"},
+  {name:"息子・ハル",side:"r",text:"朝、パパがいる方がいい！"}],
+ mono:"（家族は反対じゃなかった。決めるのは自分だと、はっきり分かった）"},
+{label:"夕方｜課長への相談",
+ bubs:[
+  {name:"タカハシ",side:"r",text:"課長、相談があります。夜勤の頻度と、評価の仕方について…"},
+  {name:"課長",side:"l",text:"制度はすぐには変えられない。だが、あんたが辞めたらラインが回らないのは、私も分かってる"}],
+ mono:"（言うのに、10年かかった。初めて聞いた、今の会社での俺の居場所）"},
+{label:"帰り道｜夕焼けの駐車場",
+ narr:"帰り道、タカハシはゆっくりと考えた。",
+ mono:"（残るなら交渉の材料が増えた。動くなら、家族の理解がある。——比べられるようになった）"},
+{label:"夜｜リビング・決めるということ",
+ bubs:[
+  {name:"ユキ",side:"r",text:"決めたら、教えてね"},
+  {name:"タカハシ",side:"l",text:"どっちを選んでも、理由を持って決める。それだけは決めた"}],
+ mono:"（迷う時間は終わりに近づいていた。残るのは『決める』という作業だけ）"}
+],
+/* ===== 第7話 選ぶということ（最終話・全4コマ） ===== */
+[
+{label:"朝｜工場前・担当者への電話",
+ bubs:[
+  {name:"タカハシ",side:"l",text:"紹介いただいた求人に、応募してみます。条件の確認をお願いできますか"},
+  {t:"phone",name:"メーカーズジョブ担当者（電話）",side:"r",text:"分かりました。企業に確認して、進め方をご連絡します"}],
+ mono:"（言えた。一歩は、電話一本からだった）"},
+{label:"昼休み｜同僚に伝える",
+ bubs:[
+  {name:"タカハシ",side:"l",text:"ちょっと、挑戦してみる。まだ結果は分からないけど"},
+  {name:"佐藤",side:"r",text:"応援しますよ。でも、ラインのことは少し心配ですけどね"}],
+ mono:"（心配してくれる人のいる場所を離れるのは、簡単なことじゃない）"},
+{label:"夜｜家族に伝える",
+ bubs:[
+  {name:"ユキ",side:"r",text:"決めたんだね"},
+  {name:"タカハシ",side:"l",text:"決めたのは『動く』こと。結果は、まだ分からない"}],
+ mono:"（それでも、決めなかった頃より、ずっと軽い。10年の経験は、全部書ける実績だった）"},
+{label:"ラスト｜朝の工場へ",
+ narr:"これは成功談ではない。選択肢を知り、自分の条件で一歩踏み出した、という話。",
+ bubs:[
+  {name:"タカハシ（読者へ）",side:"l",text:"次は、あなたの番かもしれない。まずは対象かどうか、確かめてみてください"}]}
+]
+];
+for(var e=0;e<EPS.length;e++){
+  var mount=document.getElementById("manga-ep"+(e+1));
+  if(mount){ (function(ep){ mount.innerHTML=EPS[ep-1].map(function(p,i){return panelHTML(p,i,ep);}).join(""); })(e+1); }
+}
+})();
+</script>
+
+</body>
+</html>
